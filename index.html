@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Eventbrite Event Dashboard</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style1.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <!--navbar begins-->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">one</a></li>
+    <li><a href="#!">two</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">three</a></li>
+  </ul>
+
+  <ul id="dropdownSearch" class="dropdown-content" data-constrainwidth="false">
+    <li><input placeholder="Search for events" type="text"></input>
+    </li>
+  </ul>
+
+  <nav>
+    <div class="nav-wrapper primary-nav">
+      <ul class="left">
+        <li id="logo-eventbrite"><img src="/img/eventbritelogo.png" /></li>
+        <li class="dropdown-button hide-on-large-only" data-activates="dropdownSearch" data-beloworigin="true" data-hover="true"><i class="material-icons" style="color: #D3D1D1">search</i></li>
+        <li class="search-box hide-on-med-and-down"><i class="material-icons" style="color: #D3D1D1">search</i>
+          <div class="input-field">
+            <input id="search" type="search" placeholder="Search for Events" required>
+            <label class="label-icon" for="search"></label>
+            <i class="material-icons">close</i>
+          </div>
+        </li>
+      </ul>
+      <ul class="right">
+        <li class="hide-on-med-and-down"><a href="sass.html">BROWSE EVENTS</a></li>
+        <li class="dropdown-button hide-on-med-and-down" data-activates="dropdown1" data-beloworigin="true" data-hover="true"><a href="#">HELP<i class="material-icons right">keyboard_arrow_down</i></a></li>
+        <li class="dropdown-button" data-activates="dropdown1" data-beloworigin="true" data-hover="true"><a><i class="material-icons left">account_circle</i><i class="material-icons right">keyboard_arrow_down</i></a></li>
+        <li class="hide-on-small-only"><a href="mobile.html" style="color:#0278b8;">CREATE EVENT</a></li>
+      </ul>
+
+
+    </div>
+  </nav>
+
+
+
+  <!--body begins-->
+
+  <!--event banner-->
+  <div class="section no-pad-bot event-banner" id="index-banner">
+    <div class="custom-container">
+      <div class="row banner">
+        <br>
+        <div class="col l6 m6 s12 center-alignment">
+          <p class="banner-event-name">Event Name</p>
+          <span class="live-badge">live</span>
+          <p class="banner-event-time">Tuesday, April 18, 2017 from 7:00 PM to 10:00 PM (PDT)</p>
+        </div>
+        <div class="col l6 m6 s12 center-alignment div-banner-btn"><a class="banner-btn">View</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!--black navbar-->
+  <nav>
+    <div class="nav-wrapper secondary-nav">
+      <div class="custom-container">
+        <ul class="left" style="width: 100%">
+          <li class="sec-nav-btn"><a href="#!">EDIT</a></li>
+          <li class="sec-nav-btn hide-on-small-only"><a href="#!">DESIGN</a></li>
+          <li class="sec-nav-btn"><a href="#!">MANAGE</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!--main page begins-->
+  <div class="custom-container">
+    <div class="section">
+      <div class="row main-body">
+        <!--sidebar-->
+        <div class="col l3 s12 side-nav-group">
+          <ul class="collapsible hide-on-med-and-down" data-collapsible="expandable">
+            <li>
+              <div class="collapsible-header"><i class="fa fa-home" aria-hidden="true"></i>Event Dashboard</div>
+
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="fa fa-code-fork" aria-hidden="true"></i>Order Options<i class="material-icons right">keyboard_arrow_down</i></div>
+              <div class="collapsible-body">
+                <ul>
+                  <li>Order Form</li>
+                  <li>Order Confirmation</li>
+                  <li>Event Type & Language</li>
+                  <li>Waitlist</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="fa fa-bullhorn" aria-hidden="true"></i>Invite & Promote<i class="material-icons right">keyboard_arrow_down</i></div>
+              <div class="collapsible-body">
+                <ul>
+                  <li>Add to Facebook</li>
+                  <li>Email Invitations</li>
+                  <li>Discount & Access Codes</li>
+                  <li>Widgets</li>
+                  <li>Tracking Links</li>
+                  <li>Affiliate Programs</li>
+                  <li>Social Stream</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="fa fa-line-chart" aria-hidden="true"></i>Analyze<i class="material-icons right">keyboard_arrow_down</i></div>
+              <div class="collapsible-body">
+                <ul>
+                  <li>Analytics</li>
+                  <li>Charts</li>
+                  <li>Event Reports</li>
+                  <li>Tracking Pixels</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="fa fa-users" aria-hidden="true"></i>Manage Attendees<i class="material-icons right">keyboard_arrow_down</i></div>
+              <div class="collapsible-body">
+                <ul>
+                  <li>Orders</li>
+                  <li>Add Attendees</li>
+                  <li>Emails to Attendees</li>
+                  <li>Guest List</li>
+                  <li>Name Badges</li>
+                  <li>Check-in</li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Extensions<i class="material-icons right">keyboard_arrow_down</i></div>
+              <div class="collapsible-body">
+                <ul>
+                  <li>Printed Tickets</li>
+                  <li>CrowdRise Fundraising</li>
+                  <li>Custom Badges</li>
+                  <li>Designer Invitations</li>
+                  <li>SurveyMonkey</li>
+                  <li>MailChimp Sync</li>
+                  <li>Membership Management</li>
+                  <li>Custom Mobile App</li>
+                  <li>Advertising</li>
+                  <li>Browse All</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!--end of sidebar-->
+        <div class="col s12 m12 hide-on-large-only">
+          <div class="col l3 s12 side-nav-group">
+            <ul class="collapsible" data-collapsible="expandable">
+              <li>
+                <div class="collapsible-header"><i class="fa fa-home" aria-hidden="true"></i>Event Dashboard<i class="material-icons right">keyboard_arrow_down</i></div>
+                <div class="collapsible-body mobile-sidebar-content">
+                  <ul class="collapsible" data-collapsible="expandable">
+                    <li>
+                      <div class="collapsible-header"><i class="fa fa-code-fork" aria-hidden="true"></i>Order Options<i class="material-icons right">keyboard_arrow_down</i></div>
+                      <div class="collapsible-body">
+                        <ul>
+                          <li>Order Form</li>
+                          <li>Order Confirmation</li>
+                          <li>Event Type & Language</li>
+                          <li>Waitlist</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="fa fa-bullhorn" aria-hidden="true"></i>Invite & Promote<i class="material-icons right">keyboard_arrow_down</i></div>
+                      <div class="collapsible-body">
+                        <ul>
+                          <li>Add to Facebook</li>
+                          <li>Email Invitations</li>
+                          <li>Discount & Access Codes</li>
+                          <li>Widgets</li>
+                          <li>Tracking Links</li>
+                          <li>Affiliate Programs</li>
+                          <li>Social Stream</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="fa fa-line-chart" aria-hidden="true"></i>Analyze<i class="material-icons right">keyboard_arrow_down</i></div>
+                      <div class="collapsible-body">
+                        <ul>
+                          <li>Analytics</li>
+                          <li>Charts</li>
+                          <li>Event Reports</li>
+                          <li>Tracking Pixels</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="fa fa-users" aria-hidden="true"></i>Manage Attendees<i class="material-icons right">keyboard_arrow_down</i></div>
+                      <div class="collapsible-body">
+                        <ul>
+                          <li>Orders</li>
+                          <li>Add Attendees</li>
+                          <li>Emails to Attendees</li>
+                          <li>Guest List</li>
+                          <li>Name Badges</li>
+                          <li>Check-in</li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="collapsible-header"><i class="fa fa-puzzle-piece" aria-hidden="true"></i>Extensions<i class="material-icons right">keyboard_arrow_down</i></div>
+                      <div class="collapsible-body">
+                        <ul>
+                          <li>Printed Tickets</li>
+                          <li>CrowdRise Fundraising</li>
+                          <li>Custom Badges</li>
+                          <li>Designer Invitations</li>
+                          <li>SurveyMonkey</li>
+                          <li>MailChimp Sync</li>
+                          <li>Membership Management</li>
+                          <li>Custom Mobile App</li>
+                          <li>Advertising</li>
+                          <li>Browse All</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+          </div>
+
+          </li>
+          </ul>
+        </div>
+        <!--end of mobile nav-->
+
+        <!--event dashboard text body begins      -->
+        <div class="col l9 m12 s12 right unpublish-buttons">
+          <h6 class="center-alignment"><a>UNPUBLISH</a> | <a>COPY</a> | <a>CANCEL</a> | <a>DELETE</a></h6>
+
+          <div class="row title-border">
+
+            <div class="col l6 m6 s12">
+
+              <p class="event-dashboard-title">Event Dashboard</p>
+            </div>
+            <div class="col l6 m6 s12 attendees-search-div">
+              <input placeholder="Find Attendees" type="text" name="search">
+              <i id="filtersubmit" class="fa fa-arrow-right"></i>
+
+            </div>
+
+
+          </div>
+          <div class="col l4 m6 s12">
+            <div class="image-container">
+              <img src="https://cdn.evbstatic.com/s3-build/perm_001/7932a5/django/images/icons/event_states/live-all-good.png">
+              <p class="image-text">Live!</p>
+            </div>
+            <p style="font-size: 12px;">Your event is up and running and tickets are on sale.</p>
+
+          </div>
+          <div class="col l4 m6 s12">
+            <div class="image-container2">
+              <img src="https://cdn.evbstatic.com/s3-build/perm_001/40211a/django/images/icons/event_states/status-private.png">
+              <p class="image-text">Private</p>
+            </div>
+            <p style="font-size: 12px;">Your event is not listed or searchable.</p>
+
+          </div>
+          <div class="col l4 m6 s12">
+            <div>
+              <p class="sold-progressbar-text">0 tickets sold <span style="font-weight:200">/ 50</span></p>
+
+            </div>
+            <div class="sold-progressbar"> <span class="progressbar-percent"></span></div>
+          </div>
+
+          <div class="col l12 m8 s12">
+            <ul class="tabs">
+              <li class="tab col"><a class="active" href="#tab1">Tickets</a></li>
+              <li class="tab col"><a href="#tab2">Visits</a></li>
+              <li class="tab col"><a href="#tab3">Invites</a></li>
+            </ul>
+          </div>
+          <!--first tab-->
+          <div id="tab1" class="col s12 ">
+            <div class="col l6 m6 s12">
+              <div class="tickets-sold">
+                <p style="text-align: left; padding-left:10px; padding-right:right;">Tickets Sold <span style="float: right;padding-right:10px;">0</span></p>
+              </div>
+              <div class="tickets-pending">
+                <p style="text-align: left; padding-left:10px; padding-right:right;">Tickets Pending<img style="padding-left:4px;" src="https://cdn.evbstatic.com/s3-build/6557-rc2017-03-08_16.04-a270ce4/legacy/images/icon/bug_help.png"
+                    alt="more information"> <span style="float: right;padding-right:10px;">0</span></p>
+                <p style="text-align: left; padding-left:10px; padding-right:right;">Tickets Available <span style="float: right;padding-right:10px;">50</span></p>
+              </div>
+            </div>
+            <div class="col l6 m6 s12 chart-img hide-on-small-only">
+              <img src="/img/charteventbrite.png">
+            </div>
+          </div>
+          <!--end of first tab-->
+          <!--second tab-->
+          <div id="tab2" class="col s12">
+            <div class="col l6 m6 s12">
+              <div class="tickets-sold">
+                <p style="text-align: left; padding-left:10px; padding-right:right;">Page Visits <span style="float: right;padding-right:10px;">0</span></p>
+              </div>
+              <div class="tickets-pending" style="visibility: hidden;">
+                <p style="text-align: left; padding-left:10px; padding-right:right;">Tickets Pending<img style="padding-left:4px;" src="https://cdn.evbstatic.com/s3-build/6557-rc2017-03-08_16.04-a270ce4/legacy/images/icon/bug_help.png"
+                    alt="more information"> <span style="float: right;padding-right:10px;">0</span></p>
+                <p style="text-align: left; padding-left:10px; padding-right:right;">Tickets Available <span style="float: right;padding-right:10px;">50</span></p>
+              </div>
+            </div>
+            <div class="col l6 m6 s12 chart-img hide-on-small-only">
+              <img src="/img/charteventbrite.png">
+            </div>
+          </div>
+          <!--end of second tab-->
+          <!--third tab-->
+          <div id="tab3" class="col s12">
+            <div class="col l6 m6 s12">
+              <div class="tickets-sold">
+                <p style="text-align: left; padding-left:10px; padding-right:right;">Invitations<span style="float: right;padding-right:10px;">0</span></p>
+              </div>
+              <div class="tickets-pending" style="visibility: hidden;">
+                <p style="text-align: left; padding-left:10px; padding-right:right;">Tickets Pending<img style="padding-left:4px;" src="https://cdn.evbstatic.com/s3-build/6557-rc2017-03-08_16.04-a270ce4/legacy/images/icon/bug_help.png"
+                    alt="more information"> <span style="float: right;padding-right:10px;">0</span></p>
+                <p style="text-align: left; padding-left:10px; padding-right:right;">Tickets Available <span style="float: right;padding-right:10px;">50</span></p>
+              </div>
+            </div>
+            <div class="col l6 m6 s12 chart-img hide-on-small-only">
+              <img src="/img/charteventbrite.png">
+            </div>
+          </div>
+
+          <!--start of your event url-->
+          <div class="col l12 m12 s12 event-url-input" style="margin-top: 15px">
+            <p style="margin: 0; font-weight:500;">YOUR EVENT URL</p>
+            <input id="eventURL" style="width:80%; margin-top: 0px; background-color: #EFF2F5;" value="https://www.eventbrite.com/e/event-name-tickets-32717658397"
+              type="text" name="search">
+            <i id="filtersubmit" class="fa fa-clipboard" onClick="eventURL.select();"></i>
+          </div>
+          <!--event url end-->
+
+          <!--sales table-->
+          <div class="col l12 m12 s12" style="margin-top: 15px">
+            <p class="body-titles">Sales by Ticket Type</p>
+            <table>
+              <thead>
+                <tr>
+                  <th data-field="id">TICKET TYPE</th>
+                  <th data-field="name">PRICE</th>
+                  <th data-field="price">SOLD</th>
+                  <th data-field="price">STATUS</th>
+                  <th data-field="price">END SALES</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>rsvp</td>
+                  <td>$0.00 </td>
+                  <td>0/50</td>
+                  <td>On Sale</td>
+                  <td>4/18/17 6:00 PM</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!--end of table-->
+
+          <!--common reports-->
+          <div class="col l12 m12 s12" style="margin-top: 15px">
+            <p class="body-titles">Common Reports</p>
+            <div class="common-reports-block">
+              <div class="common-reports-text">
+                <p>Attendee Summary</p>
+                <p style="font-size:12px; font-weight: 300;">Information about attendees <i class="material-icons right" style="line-height: 0;">keyboard_arrow_right</i></p>
+              </div>
+            </div>
+            <div class="common-reports-block">
+              <div class="common-reports-text">
+                <p>Attendee Summary</p>
+                <p style="font-size:12px; font-weight: 300;">Information about attendees <i class="material-icons right" style="line-height: 0;">keyboard_arrow_right</i></p>
+              </div>
+            </div>
+            <div class="common-reports-block">
+              <div class="common-reports-text">
+                <p>Attendee Summary</p>
+                <p style="font-size:12px; font-weight: 300;">Information about attendees <i class="material-icons right" style="line-height: 0;">keyboard_arrow_right</i></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col l12 m12 s12" style="margin-top: 15px">
+            <p class="body-titles">Recent Orders</p>
+            <p class="body-p-text"> No orders for this event yet. </p>
+          </div>
+
+          <div class="col l12 m12 s12" style="margin-top: 15px">
+            <p class="body-titles">Traffic from Promotional Tools</p>
+            <div class="blue-error-box">
+              <p style="line-height: 1; text-align: center;">You currently have no visits or sales from Eventbrite promotional tools.</p>
+            </div>
+            <div class="col l6 m6 s12" style="padding-left:0px;">
+              <p>Promote your event</p>
+              <p>Use our tools to spread the word about your event and reach more people:</p>
+              <p>Send personalized invitations to your guests with Email Invitations</p>
+            </div>
+            <div class="col l6 m6 s12" style="padding-left:0px;">
+              <p>Analyze your results</p>
+              <p>Once you start getting more traffic from Eventbrite's promotional tools, a chart will show which tools are
+                bringing the most visits and sales.</p>
+              <img src="https://cdn.evbstatic.com/s3-build/perm_001/2ba916/django/images/pages/manage/promochartpie.png">
+              <a href="#">
+                <p style="text-align: right">Create your own tracking links</p>
+              </a>
+            </div>
+          </div>
+
+          <div class="col l12 m12 s12">
+            <div class="links-block">
+              <div class="links-text">
+                <p style="font-weight: 500; color:#45494E;">Your Organizer URL: <a href="#">https://www.eventbrite.com/o/13149329468</a><a>[change]</a></p>
+                <p style="font-weight: 500; color:#45494E;">Share this event on Twitter: <a href="#">https://www.eventbrite.com/e/event-name-tickets-32717658397?ref=estw</a></p>
+              </div>
+            </div>
+          </div>
+          <!--end of unpublish l12 div-->
+
+        </div>
+
+
+        <!--div of event dashboard content ends-->
+      </div>
+
+
+
+
+
+
+      <!--main body row closed-->
+    </div>
+
+    <!--container closed-->
+  </div>
+  <br><br>
+
+
+
+  <footer class="page-footer">
+    <div class="custom-container">
+      <div class="row hide-on-med-and-down">
+        <div class="col l3 s12 footer-links">
+          <p class="footer-titles">Use Eventbrite</p>
+          <ul>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">For Large & Complex Events</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Community Guidelines</a></li>
+            <li><a href="#">Eventbrite Mobile App</a></li>
+            <li><a href="#">Eventbrite Check-In App</a></li>
+            <li><a href="#">Eventbrite Spectrum</a></li>
+            <li><a href="#">Rally - Fun Things To Do</a></li>
+            <li><a href="#">Event Organizing Resources</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12 footer-links">
+          <p class="footer-titles">Plan Events</p>
+          <ul>
+            <li><a href="#">Conference Management Software</a></li>
+            <li><a href="#">Classes & Workshops</a></li>
+            <li><a href="#">Nonprofits & Fundraisers</a></li>
+            <li><a href="#">Reunions</a></li>
+            <li><a href="#">Sell Tickets</a></li>
+            <li><a href="#">Event Management & Planning</a></li>
+            <li><a href="#">Online Event Registration</a></li>
+            <li><a href="#">Online RSVP</a></li>
+            <li><a href="#">Venue Booking & Management</a></li>
+            <li><a href="#">Music Ticketing Software</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12 footer-links">
+          <p class="footer-titles">Find Events</p>
+          <ul>
+            <li><a href="#">Boston Events</a></li>
+            <li><a href="#">Chicago Events</a></li>
+            <li><a href="#">Denver Events</a></li>
+            <li><a href="#">Houston Events</a></li>
+            <li><a href="#">Los Angeles Events</a></li>
+            <li><a href="#">Nashville Events</a></li>
+            <li><a href="#">New York Events</a></li>
+            <li><a href="#">San Diego Events</a></li>
+            <li><a href="#">San Francisco Events</a></li>
+            <li><a href="#">Seattle Events</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12 footer-links">
+          <p class="footer-titles">Connect With Us</p>
+          <ul>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">Contact Sales</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Google+</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row footer-row">
+        <div class="col l9 m12 s12">
+          <div class="footer-banner-links">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Developers</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col l3 m12 s12">
+          <div class="footer-dropdown">
+            <a class='dropdown-button btn languages-button' href='#' data-activates='countriesList'><i class="fa fa-globe left" aria-hidden="true"></i>United States</a>
+            <ul id='countriesList' class='dropdown-content'>
+              <li><a href="#!">one</a></li>
+              <li><a href="#!">two</a></li>
+              <li><a href="#!">three</a></li>
+              <li><a href="#!">three</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class="row">
+
+        <p class="center-align" style="color:#9FA4AC;">© 2017 Eventbrite</p>
+      </div>
+
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>

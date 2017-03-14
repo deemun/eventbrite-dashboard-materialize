@@ -1,0 +1,495 @@
+
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.primary-nav {
+  background-color: white;
+  color: black;
+}
+
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0.75px;
+}
+
+.primary-nav>ul>li>a {
+  color: #81858D;
+  border-left: 1px solid #EFF2F5;
+  border-right: 1px solid #EFF2F5;
+}
+
+.search-box {
+  display: -webkit-inline-box;
+}
+
+.gridcheck {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+.banner {
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  max-width: 1080px;
+}
+
+.event-banner {
+  background-color: #F8F8FA;
+}
+
+.banner-btn {
+  background-color: transparent;
+  border: 2px solid #0278b8;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all .3s ease-out;
+}
+
+.div-banner-btn {
+  text-align: right;
+}
+
+.banner-btn:hover {
+  background-color: #0278b8;
+  color: white;
+}
+
+.live-badge {
+  color: #fff;
+  padding: 7px 10px 6px;
+  vertical-align: text-bottom;
+  line-height: 12px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #00ab44;
+}
+
+.banner-event-name {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.banner-event-time {
+  color: #666A73;
+  font-size: 15px;
+}
+
+.secondary-nav {
+  background-color: #282C35;
+}
+
+.sec-nav-btn {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  width: 140px;
+  display: block;
+  /*padding-left: 30px;
+  padding-right: 30px;*/
+  text-align: center;
+}
+
+body {
+  background-color: #F8F8FA;
+}
+
+.row.col {
+  padding: 0;
+}
+
+.side-nav-group {
+  /*padding-left: 20px;
+    padding-right: 20px;*/
+  background-color: #F8F8FA;
+  /*border-bottom: 1px solid #d2d6df;*/
+  color: #03A9F4;
+  width: 22%;
+}
+
+li>.active>i.right {
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(180deg);
+}
+
+.unpublish-buttons>h6 {
+  text-align: right;
+}
+
+.unpublish-buttons>h6>a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#logo-eventbrite>img {
+  padding-top: 7px;
+}
+
+.event-dashboard-title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.title-border {
+  border-bottom: 1px solid #d2d6df;
+}
+
+.sold-progressbar {
+  height: 15px;
+  width: 80%;
+  background-color: white;
+  border: 1px solid #d2d6df;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.sold-progressbar-text {
+  line-height: 0px;
+  float: left;
+}
+
+.image-container {
+  width: 90px;
+}
+
+.image-container2 {
+  width: 110px;
+}
+
+#tab1 {
+  /*padding: 20px;*/
+}
+
+.tickets-sold {
+  background-color: #EFF2F5;
+  border: 1px solid #d2d6df;
+  border-radius: 3px;
+  width: 90%;
+  text-align: center;
+  height: 90%;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.tickets-pending {
+  background-color: white;
+  border: 1px solid #d2d6df;
+  border-radius: 3px;
+  width: 90%;
+  text-align: center;
+  height: 90%;
+  margin: 10px;
+}
+
+.chart-img>img {
+  margin: 30px;
+  margin-top: 30px;
+}
+
+#filtersubmit {
+  position: relative;
+  z-index: 1;
+  left: -50px;
+  top: 1px;
+  color: #d2d6df;
+  cursor: pointer;
+  width: 0;
+}
+
+.fa-paste:before,
+.fa-clipboard:before {
+  padding: 15px;
+  background-color: white;
+}
+
+td,
+th {
+  padding: 10px;
+  border-radius: 0px;
+  font-weight: 400;
+}
+
+thead {
+  background-color: #666a73;
+  color: #fff;
+  line-height: 1.8;
+}
+
+tbody {
+  background-color: white;
+  color: #666a73;
+}
+
+.body-titles {
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+
+.body-p-text {
+  font-weight: 300;
+}
+
+.common-reports-block {
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  border-bottom-color: #eff2f5;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.common-reports-block:hover {
+  background-color: #F8F8FA;
+}
+
+.common-reports-text {
+  padding: 15px;
+}
+
+.common-reports-text>p {
+  margin: 0;
+}
+
+.links-block {
+  background-color: white;
+  height: 110px;
+  width: 100%;
+  border-color: #d5d5d3;
+    border-style: solid;
+    border-width: 1px;
+  word-wrap: break-word;
+}
+
+.links-text {
+  padding:5px;
+  padding-left:15px;
+}
+
+.blue-error-box {
+  background-color: white;
+  height: 40px;
+  width: 100%;
+  border: 1px solid #0278b8;
+}
+
+.blue-error-box:after {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+  background: #0093d7;
+}
+
+.footer-banner-links > ul > li {
+    display: inline-block;
+    padding-right: 12px;
+}
+
+.footer-banner-links > ul > li > a {
+    color:#9FA4AC;
+}
+
+.footer-dropdown {
+  padding-top: 13px;
+}
+
+.footer-links > ul > li > a {
+  color:#9FA4AC;
+  font-size:12px;
+
+}
+.footer-links > ul > li{
+  padding-top:5px;
+}
+.footer-row {
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+  line-height: 60px;
+  text-align: center;
+}
+
+.footer-titles {
+  color:#9FA4AC;
+}
+
+.languages-button {
+    border: 1px solid #363A43;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+
+
+/*overidding materialize styles here*/
+
+.collapsible-body {
+  padding: 1rem;
+  background-color: white;
+}
+
+nav i.material-icons {
+  line-height: 63px;
+}
+
+.mobile-sidebar-content {
+  padding: 0px;
+  border-bottom: 0px;
+}
+
+.custom-container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
+
+.collapsible-header {
+  padding: 0 0.5rem;
+}
+
+.collapsible-header i {
+  margin-right: 3px;
+}
+
+i.right {
+  margin-left: 4px;
+}
+
+.input-field input[type=search] {
+  display: initial !important;
+  padding-left: 0.5em;
+}
+
+input[type=text] {
+  background-color: white;
+  border: 1px solid #d2d6df;
+  border-radius: 3px;
+  margin-top: 25px;
+  padding-left: 10px;
+  width: 80%;
+  margin: 0;
+}
+
+.tabs {
+  background-color: transparent;
+  border-bottom: 2px solid #d2d6df;
+}
+
+.tabs .tab a {
+  color: #81858D;
+}
+
+.tab > a.active {
+  font-weight: 600;
+  color: #81858D !important;
+}
+
+.tabs .tab {}
+
+.tabs .indicator {
+  background-color: #0093D7;
+  height: 4px;
+}
+
+.attendees-search-div {
+  text-align: right;
+  padding-top: 25px !important;
+}
+
+.image-text {
+  line-height: 0px;
+  float: right;
+  /*text-align: right;*/
+}
+
+footer.page-footer {
+  border-top: #666A73 solid 6px;
+  background-color: #282C35;
+}
+
+.dropdown-content {
+  min-width:300px;
+}
+
+.dropdown-content > li > input[type=text] {
+  border:none !important;
+  width:100% !important;
+}
+
+
+@media (max-width: 600px) {
+  .center-alignment {
+    text-align: center !important;
+  }
+  .sec-nav-btn {
+    width: 50%;
+  }
+  .tickets-sold {
+    width: 100%;
+    margin-left: 2px;
+  }
+  .tickets-pending {
+    width: 100%;
+    margin-left: 2px;
+  }
+  .attendees-search-div {
+    text-align: left;
+    padding-top: 10px !important;
+    margin-bottom: 20px;
+  }
+  .event-dashboard-title {
+    margin-bottom: 0;
+  }
+  .links-block {
+    height:170px;
+  }
+  .blue-error-box {
+    height:50px;
+  }
+}
+
+@media (max-width:950px) {
+  #filtersubmit {
+    position: relative;
+    z-index: 1;
+    left: -47px;
+    top: 0px;
+    color: #d2d6df;
+    cursor: pointer;
+    width: 0;
+  }
+  .fa-paste:before,
+  .fa-clipboard:before {
+    padding: 14px;
+    background-color: white;
+    padding-right: 15px;
+  }
+  .footer-row {
+  border-top: none;
+  border-bottom: none;
+}
