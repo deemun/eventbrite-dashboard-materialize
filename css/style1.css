@@ -226,7 +226,8 @@ li>.active>i.right {
 
 td,
 th {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 0px;
   font-weight: 400;
 }
