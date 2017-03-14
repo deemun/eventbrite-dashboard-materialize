@@ -279,14 +279,14 @@ tbody {
   height: 110px;
   width: 100%;
   border-color: #d5d5d3;
-    border-style: solid;
-    border-width: 1px;
+  border-style: solid;
+  border-width: 1px;
   word-wrap: break-word;
 }
 
 .links-text {
-  padding:5px;
-  padding-left:15px;
+  padding: 5px;
+  padding-left: 15px;
 }
 
 .blue-error-box {
@@ -305,27 +305,28 @@ tbody {
   background: #0093d7;
 }
 
-.footer-banner-links > ul > li {
-    display: inline-block;
-    padding-right: 12px;
+.footer-banner-links>ul>li {
+  display: inline-block;
+  padding-right: 12px;
 }
 
-.footer-banner-links > ul > li > a {
-    color:#9FA4AC;
+.footer-banner-links>ul>li>a {
+  color: #9FA4AC;
 }
 
 .footer-dropdown {
   padding-top: 13px;
 }
 
-.footer-links > ul > li > a {
-  color:#9FA4AC;
-  font-size:12px;
+.footer-links>ul>li>a {
+  color: #9FA4AC;
+  font-size: 12px;
+}
 
+.footer-links>ul>li {
+  padding-top: 5px;
 }
-.footer-links > ul > li{
-  padding-top:5px;
-}
+
 .footer-row {
   border-top: solid 1px lightgray;
   border-bottom: solid 1px lightgray;
@@ -334,16 +335,14 @@ tbody {
 }
 
 .footer-titles {
-  color:#9FA4AC;
+  color: #9FA4AC;
 }
 
 .languages-button {
-    border: 1px solid #363A43;
-    border-radius: 5px;
-    background-color: transparent;
+  border: 1px solid #363A43;
+  border-radius: 5px;
+  background-color: transparent;
 }
-
-
 
 
 /*overidding materialize styles here*/
@@ -404,7 +403,7 @@ input[type=text] {
   color: #81858D;
 }
 
-.tab > a.active {
+.tab>a.active {
   font-weight: 600;
   color: #81858D !important;
 }
@@ -433,14 +432,13 @@ footer.page-footer {
 }
 
 .dropdown-content {
-  min-width:300px;
+  min-width: 300px;
 }
 
-.dropdown-content > li > input[type=text] {
-  border:none !important;
-  width:100% !important;
+.dropdown-content>li>input[type=text] {
+  border: none !important;
+  width: 100% !important;
 }
-
 
 @media (max-width: 600px) {
   .center-alignment {
@@ -466,10 +464,10 @@ footer.page-footer {
     margin-bottom: 0;
   }
   .links-block {
-    height:170px;
+    height: 170px;
   }
   .blue-error-box {
-    height:50px;
+    height: 50px;
   }
 }
 
@@ -490,6 +488,6 @@ footer.page-footer {
     padding-right: 15px;
   }
   .footer-row {
-  border-top: none;
-  border-bottom: none;
-}
+    border-top: none;
+    border-bottom: none;
+  }
