@@ -1,6 +1,6 @@
 # Eventbrite's Event Dashboard - Materialize CSS Framework
 
-Responsive rendition of Eventbrite's Event Dashboard, using the Materialize framework.
+Responsive remake of Eventbrite's Event Dashboard, using the Materialize framework.
 
 
 # Instructions 
